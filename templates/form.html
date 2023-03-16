@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Create a Dino</title>
+    <link rel="stylesheet" href="/static/form.css">
+    <link rel="stylesheet" href="/static/main.css">
+  </head>
+  <body>
+      <form action="/dino">
+        <h1>Create a Dinosaur!</h1>
+        <div>
+            <label>What's your dino's name?</label> 
+            <input type="text" name="dino-name" class="input-field" placeholder="Name"/>
+        </div>
+        <hr/>
+        <div>
+            <label>How old is your dino?</label> 
+            <input type="number" name="age" class="input-field" placeholder="Age"/>
+        </div>
+        <hr/>
+        <div>
+            <label>What does your dino look like?</label>
+            <div class="dino-container">
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoOne.png" class="radio"/>
+                    <img src="/static/images/dinoOne.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoTwo.png" class="radio"/>
+                    <img src="/static/images/dinoTwo.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoThree.png" class="radio"/>
+                    <img src="/static/images/dinoThree.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoFour.png" class="radio"/>
+                    <img src="/static/images/dinoFour.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoFive.png" class="radio"/>
+                    <img src="/static/images/dinoFive.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoSix.png" class="radio"/>
+                    <img src="/static/images/dinoSix.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoSeven.png" class="radio"/>
+                    <img src="/static/images/dinoSeven.png" alt="dinosaur" class="dino-img"/>
+                </label>
+                <label class="dino-card">
+                    <input type="radio" name="dino-pic" value="dinoEight.png" class="radio"/>
+                    <img src="/static/images/dinoEight.png" alt="dinosaur" class="dino-img"/>
+                </label>
+            </div>
+        </div>
+        <input type="submit" value="Create" class="submit">
+    </form>
+  </body>
+</html>

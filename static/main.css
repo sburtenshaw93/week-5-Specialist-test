@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+    color: #4C251D;
+}
+
+body {
+    background-color: #FCFBF5;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+a {
+    color: #A9BA5A;
+}
